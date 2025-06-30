@@ -1,0 +1,17 @@
+/**
+ * Represents a Cube. This class holds the side length
+ * and provides a method to calculate the volume.
+ */
+public class Cube {
+    private double sideLength;
+
+    // Constructor to initialize a new Cube object
+    public Cube(double sideLength) {
+        this.sideLength = sideLength;
+    }
+
+    // Method to calculate and return the volume
+    public double getVolume() {
+        return Math.pow(this.sideLength, 3);
+    }
+}
