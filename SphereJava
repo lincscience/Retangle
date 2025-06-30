@@ -1,0 +1,18 @@
+/**
+ * Represents a Sphere. This class holds the radius
+ * and provides a method to calculate the volume.
+ */
+public class Sphere {
+    private double radius;
+
+    // Constructor to initialize a new Sphere object
+    public Sphere(double radius) {
+        this.radius = radius;
+    }
+
+    // Method to calculate and return the volume
+    public double getVolume() {
+        // Use 4.0/3.0 to ensure floating-point division
+        return (4.0 / 3.0) * Math.PI * Math.pow(this.radius, 3);
+    }
+}
